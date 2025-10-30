@@ -1,0 +1,19 @@
+# Ignore Terraform local files
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform.exe
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Ignore Docker build cache
+*.tar
+*.img
+*.iso
+
+# Ignore local environment settings
+.env
+__pycache__/
