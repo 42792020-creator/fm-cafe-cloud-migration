@@ -15,3 +15,7 @@ variable "app_instance_count" {
   type        = number
   default     = 1
 }
+variable "config_bucket_name" {
+  type    = string
+  default = "fm-cafe-config-bucket"
+}

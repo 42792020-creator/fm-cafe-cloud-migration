@@ -1,0 +1,5 @@
+{
+  "enable_new_checkout": true,
+  "max_daily_transactions": 1000,
+  "maintenance_mode": false
+}

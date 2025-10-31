@@ -40,3 +40,12 @@ output "vpc_id" {
 output "subnet_id" {
   value = module.network.subnet_id
 }
+
+
+resource "aws_s3_bucket" "fm_cafe_config" {
+  bucket = var.config_bucket_name
+  acl    = "private"
+  tags = {
+    Name = "fm-cafe-config"
+  }
+}
