@@ -17,3 +17,14 @@ terraform.exe
 # Ignore local environment settings
 .env
 __pycache__/
+
+
+# Ignore large/binary files
+*.mp4
+*.zip
+*.exe
+*.iso
+*.tar.gz
+*.tgz
+*.7z
+*.bak
